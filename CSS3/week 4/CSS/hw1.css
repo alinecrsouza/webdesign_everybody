@@ -72,4 +72,28 @@ table{
     margin: 0 auto;
 }
 
+th{
+    background-color: #669900;    
+    background: -webkit-linear-gradient(#669900, #cccc00); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#669900, #cccc00); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#669900, #cccc00); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#669900, #cccc00);
+    border: solid #669900 1px;
+    border-bottom-width: 2px;
+    border-radius: 5px 5px 0px 0px; 
+    padding: 0px 5px 0px 5px;
+}
+
+th:first-child{
+    text-align: left;
+}
+
+td:first-child{
+    text-align: left;
+}
+
+td:nth-child(2), td:nth-child(3) {
+    text-align: center;
+}
+
 
