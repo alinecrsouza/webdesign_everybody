@@ -64,8 +64,8 @@ img{
 }
 
 table{
-    font-family: "Times New Roman", Times, serif;
-    font-size: 14px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
     font-weight: normal;
     line-height: 200%; 
     width: 70%;
@@ -73,15 +73,16 @@ table{
 }
 
 th{
-    background-color: #669900;    
-    background: -webkit-linear-gradient(#669900, #cccc00); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#669900, #cccc00); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#669900, #cccc00); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#669900, #cccc00);
-    border: solid #669900 1px;
+    background-color: #666633;    
+    background: -webkit-linear-gradient(#666633, #cccc61); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#666633, #cccc61); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#666633, #cccc61); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#666633, #cccc61);
+    border: solid #666633 1px;
+    color: #FFFFFF;
     border-bottom-width: 2px;
     border-radius: 5px 5px 0px 0px; 
-    padding: 0px 5px 0px 5px;
+    padding: 2px 5px 2px 5px;
 }
 
 th:first-child{
@@ -94,6 +95,22 @@ td:first-child{
 
 td:nth-child(2), td:nth-child(3) {
     text-align: center;
+}
+
+tr:not(:first-child){
+    opacity: 0.8;
+}
+
+tr:hover{
+    opacity: 1.0;
+}
+
+td{
+    padding: 4px;
+    color: #232323;
+    background-color: #cfd794;
+    border-radius: 2px;
+    text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
 }
 
 
