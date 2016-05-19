@@ -1,116 +1,105 @@
-/* 
-    Created on : 10/25/2015
-    Last modified on: 11/01/2015
-    Author     : Aline da Cruz Rodrigues Souza
-*/
 body{
-    padding: 10px;
-    margin: 10px;
+  padding:5px;
+  margin:2%;
+  font-style:normal;
 }
-header{
-    background-color: #B3B3B3;
-    background-image: url("../images/flywheel.jpg");
-    padding: 10px;
-    background-size: cover;
+
+header {
+background-color:#0072ab;
+background-image: url("../images/flywheel.jpg");
+background-repeat: no-repeat;
+background-size: 1300px 740px;
+padding: 4px;
 }
-nav a{
-    display: inline-block;
-    width: 15%;
-    height: 20px;
-    margin: 40px;
-    border-radius: 10px;
-    text-decoration: none;
-    padding: 10px;
-    background: #C8C8C8;
-    color: #000000;
-    opacity: 0.6;
-    text-align: center;
-}
-.active{
-    background-color: #FFFFFF;
-    color: #330099;
-    opacity: 1.0;
-}
+
 h1{
-    text-align: center;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    font-size: 40px;
+   text-align: center;
+  text-transform: uppercase;
+  color:#0000FF;
+ font-size: 40px;
 }
+
+nav a{
+  border: 2px solid #a1a1a1;
+   padding: 10px 40px;
+    width: 15%;
+    border-radius: 25px;
+  margin: 4px 4px;
+display: inline-block;
+text-decoration: none;
+}
+
+.active{
+  background-color: rgba(0, 255, 0, 0.3);
+  font-color:#00374a;
+}
+
 h2{
-    color: #000000;
-    text-transform: uppercase;
+  color: #00d154;
+  text-transform: uppercase;
 }
-section{
-    margin: 10px;
-}
-img{
-    display:block;    
-    border: solid 1px #000000;
-    margin: 30px auto;
-    width: 160px;
-}
-.left{
-    display:inline-block;
-    width: 200px;
-    height: 600px;
-    background-color: #666600;
+
+.left {
+    border: 1px solid yellow;
     float: left;
-}
-.right{
-    display:inline-block;
+    width: 30%;
+  background-color:#a1a1a1;
+    }
+
+img {
     width: 60%;
+    display: block;
+    border: 1px solid red;
+    margin: 5% auto;
+    }
+
+.right {
     float: left;
-}
+    width: 65%;
+    padding: 10px;
+    }
+
 
 table{
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 12px;
-    font-weight: normal;
-    line-height: 200%; 
-    width: 70%;
-    margin: 0 auto;
+	width:90%;
+	margin:0 auto;
+	background-color:rgb(255, 255, 255);
+	font-size: 105%;
+	font-family: cursive,fantasy,sans-serif;
+	font-style: normal;
+	line-height: normal;
+
+}
+tr{
+	opacity:0.6;
+	text-align: center;
+}
+table tr:first-child{
+	opacity:1;
 }
 
-th{
-    background-color: #666633;    
-    background: -webkit-linear-gradient(#666633, #cccc61); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#666633, #cccc61); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#666633, #cccc61); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#666633, #cccc61);
-    border: solid #666633 1px;
-    color: #FFFFFF;
-    border-bottom-width: 2px;
-    border-radius: 5px 5px 0px 0px; 
-    padding: 2px 5px 2px 5px;
+tr th{
+	background-color: rgb(22, 93, 70);
+	color:rgb(255, 255, 255);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border:1px solid black;
+	border-bottom:5px solid black;
+	padding:5px;
 }
 
-th:first-child{
-    text-align: left;
+tr td{
+	padding:5px;
+	background-color: rgb(197, 221, 199);
+	color:rgb(1, 1, 0.5);
+	border-radius: 2px;
 }
-
-td:first-child{
-    text-align: left;
+tr th:first-child{
+	text-align:left;
 }
-
-td:nth-child(2), td:nth-child(3) {
-    text-align: center;
+tr td:first-child{
+	text-align:left;
 }
-
-tr:not(:first-child){
-    opacity: 0.8;
-}
-
 tr:hover{
-    opacity: 1.0;
+	opacity:1;
 }
-
-td{
-    padding: 4px;
-    color: #232323;
-    background-color: #cfd794;
-    border-radius: 2px;
-    text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
-}
-
-

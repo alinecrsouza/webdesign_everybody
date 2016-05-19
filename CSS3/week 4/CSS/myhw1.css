@@ -1,0 +1,116 @@
+/* 
+    Created on : 10/25/2015
+    Last modified on: 11/01/2015
+    Author     : Aline da Cruz Rodrigues Souza
+*/
+body{
+    padding: 10px;
+    margin: 10px;
+}
+header{
+    background-color: #B3B3B3;
+    background-image: url("../images/flywheel.jpg");
+    padding: 10px;
+    background-size: cover;
+}
+nav a{
+    display: inline-block;
+    width: 15%;
+    height: 20px;
+    margin: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    background: #C8C8C8;
+    color: #000000;
+    opacity: 0.6;
+    text-align: center;
+}
+.active{
+    background-color: #FFFFFF;
+    color: #330099;
+    opacity: 1.0;
+}
+h1{
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+h2{
+    color: #000000;
+    text-transform: uppercase;
+}
+section{
+    margin: 10px;
+}
+img{
+    display:block;    
+    border: solid 1px #000000;
+    margin: 30px auto;
+    width: 160px;
+}
+.left{
+    display:inline-block;
+    width: 200px;
+    height: 600px;
+    background-color: #666600;
+    float: left;
+}
+.right{
+    display:inline-block;
+    width: 60%;
+    float: left;
+}
+
+table{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 200%; 
+    width: 70%;
+    margin: 0 auto;
+}
+
+th{
+    background-color: #666633;    
+    background: -webkit-linear-gradient(#666633, #cccc61); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#666633, #cccc61); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#666633, #cccc61); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#666633, #cccc61);
+    border: solid #666633 1px;
+    color: #FFFFFF;
+    border-bottom-width: 2px;
+    border-radius: 5px 5px 0px 0px; 
+    padding: 2px 5px 2px 5px;
+}
+
+th:first-child{
+    text-align: left;
+}
+
+td:first-child{
+    text-align: left;
+}
+
+td:nth-child(2), td:nth-child(3) {
+    text-align: center;
+}
+
+tr:not(:first-child){
+    opacity: 0.8;
+}
+
+tr:hover{
+    opacity: 1.0;
+}
+
+td{
+    padding: 4px;
+    color: #232323;
+    background-color: #cfd794;
+    border-radius: 2px;
+    text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+}
+
+
