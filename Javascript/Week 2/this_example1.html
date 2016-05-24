@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Using 'This'</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .small_image{
+                height: 100px;
+            }
+        </style>
+        <script>
+            function displayId(element){
+                console.log(element.id);
+            }
+        </script>
+    </head>
+    <body>
+        <img class='small_image' src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/Colleen82.jpg" 
+             alt="Awesome 80's haircut" onclick='console.log(this.alt)'>
+        <div onclick="console.log(this.innerHTML)">Hi There, checking out a div</div>
+        
+        <img class='small_image' src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/FamilyChristmas74.jpg" 
+             alt="Another Beautiful Picture" id="ID-1" onclick='displayId(this)'>
+        <div onclick="displayId(this)" id="ID-2">Another div</div>
+        
+    </body>
+</html>

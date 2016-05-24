@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Modify the DOM</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .closed{
+                display:none;
+            }
+            .open{
+                display: block;
+            }            
+        </style>
+        <script>
+            function openMe(){
+                //find the element
+                x=document.getElementById("demo");
+                //Option 1: Change the style attribute directly
+                //x.style.display="block";
+
+                //Option 2: Change the class
+                x.className="open";
+            }
+            
+            function closeMe(){
+                //find the element
+                x=document.getElementById("demo");
+                //Option 1: Change the style attribute directly
+                //x.style.display="none";
+
+                //Option 2: Change the class
+                x.className="closed";
+            }
+        </script>
+    </head>    
+    <body>
+        <h1>Modify the DOM</h1>
+        <button onclick="document.getElementById('stuff').innerHTML='Clicked First Button';">First</button>
+        <button onclick="document.getElementById('stuff').innerHTML='Clicked Second Button';">Second</button>
+        <p>This code shouldn't change</p>
+        <p id='stuff'>This will change</p>
+        <p>This code shouldn't change</p>
+        <h2>Another Example</h2>
+        <button onclick="openMe();">Open!</button>
+        <button onclick="closeMe();">Close!</button>
+        <p id='demo'>Extra details... You can open and close this paragraph using the buttons above.</p>
+    </body>
+</html>
